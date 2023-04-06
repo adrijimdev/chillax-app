@@ -1,6 +1,6 @@
 <script setup>
 import HelloWorld from './components/HelloWorld.vue'
-import menu from './components/menu.vue'
+import MenuNavbar from './components/MenuNavbar.vue'
 </script>
 
 <template>
@@ -13,9 +13,7 @@ import menu from './components/menu.vue'
     </a>
   </div>
   <HelloWorld msg="Vite + Vue" />
-  <menu-component></menu-component>
-  <menu-component></menu-component>
-  <menu-component></menu-component>
+  <MenuNavbar/>
 </template>
 
 <style scoped>
