@@ -1,11 +1,11 @@
 
 <script>
 import './../style.css'
-src="https://translate.google.com/translate_a/element.js?cb=googleTranslateElementInit"
+
 function googleTranslateElementInit() {
   new google.translate.TranslateElement({pageLanguage: 'es', includedLanguages: 'ca,eu,gl,en,fr,it,pt,de', layout: google.translate.TranslateElement.InlineLayout.SIMPLE, gaTrack: true}, 'google_translate_element');
         }
-
+        src="https://translate.google.com/translate_a/element.js?cb=googleTranslateElementInit"
 </script>
 
 <template>

@@ -1,7 +1,8 @@
 <script setup>
 import HelloWorld from './components/HelloWorld.vue'
 import MenuNavbar from './components/MenuNavbar.vue'
-import BotonTraduccion from './components/BotonTraduccion.vue'
+
+
 </script>
 
 <template>
@@ -13,9 +14,12 @@ import BotonTraduccion from './components/BotonTraduccion.vue'
       <img src="./assets/vue.svg" class="logo vue" alt="Vue logo" />
     </a>
   </div>
+
   <HelloWorld msg="Vite + Vue" />
   <MenuNavbar/>
-  <BotonTraduccion/>
+
+
+
 </template>
 
 <style scoped>
