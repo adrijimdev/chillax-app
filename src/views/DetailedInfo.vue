@@ -1,7 +1,7 @@
 <template>
     <div class="boxShadow w-4/5 mt-36 mb-36 mx-auto rounded-xl bg-web-card text-white shadow-3xl flex flex-col self-center sm:h-fit">
         <div class='go-back hover:bg-web-boton2 w-fit py-1 px-2 text-xl cursor-pointer rounded-md inline-block shadow-lg ml-4 mt-4' @click="returnToList()">Volver atrás</div>
-        <h1 class="text-3xl text font-semibold self-center mb-4 md:mb-6 mt-7 md:mt-0 mx-1">{{ movieData.title }}</h1>
+        <h1 class="text-3xl text-center overflow-ellipsis w-full h-auto font-semibold self-center mb-4 md:mb-6 mt-7 md:mt-0 mx-1 p-3">{{ movieData.title }}</h1>
         <hr class="w-4/5 self-center"/>
         <div class="flex flex-col md:flex-row ml-0 md:ml-10 justify-center mt-4">
           <img :src="'https://image.tmdb.org/t/p/w500' + movieData.poster_path" :alt="'Portada de la película ' + movieData.title" class="mt-5 mb-4 w-1/2 h-full md:w-1/5 md:h-1/4 rounded-lg self-center md:self-center sm:mb-7">
